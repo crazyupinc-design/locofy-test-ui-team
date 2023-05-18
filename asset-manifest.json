@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/locofy-test-ui-team/static/css/main.e4632d54.css",
-    "main.js": "/locofy-test-ui-team/static/js/main.7fb0bac2.js",
+    "main.css": "/locofy-test-ui-team/static/css/main.14089d5a.css",
+    "main.js": "/locofy-test-ui-team/static/js/main.21e9ad5e.js",
     "static/js/787.17b327ae.chunk.js": "/locofy-test-ui-team/static/js/787.17b327ae.chunk.js",
     "index.html": "/locofy-test-ui-team/index.html",
-    "main.e4632d54.css.map": "/locofy-test-ui-team/static/css/main.e4632d54.css.map",
-    "main.7fb0bac2.js.map": "/locofy-test-ui-team/static/js/main.7fb0bac2.js.map",
+    "main.14089d5a.css.map": "/locofy-test-ui-team/static/css/main.14089d5a.css.map",
+    "main.21e9ad5e.js.map": "/locofy-test-ui-team/static/js/main.21e9ad5e.js.map",
     "787.17b327ae.chunk.js.map": "/locofy-test-ui-team/static/js/787.17b327ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4632d54.css",
-    "static/js/main.7fb0bac2.js"
+    "static/css/main.14089d5a.css",
+    "static/js/main.21e9ad5e.js"
   ]
 }
