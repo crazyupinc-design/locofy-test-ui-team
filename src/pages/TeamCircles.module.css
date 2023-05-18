@@ -40,33 +40,53 @@
 }
 .fullName,
 .jobTitle {
-  align-self: stretch;
   position: relative;
   line-height: 150%;
+}
+.fullName {
+  align-self: stretch;
 }
 .jobTitle {
   font-size: var(--font-size-lg);
 }
+.info,
+.jobTitle {
+  align-self: stretch;
+}
 .card,
+.content,
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.info {
+.content {
   align-self: stretch;
+  flex: 1;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-base);
 }
 .card {
-  width: 368px;
+  height: 439px;
   gap: var(--gap-5xl);
 }
+.description1,
 .imageIcon1 {
   align-self: stretch;
   position: relative;
+}
+.imageIcon1 {
   max-height: 100%;
   width: 270px;
   object-fit: cover;
+}
+.description1 {
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  display: inline-block;
+  height: 72px;
+  flex-shrink: 0;
 }
 .columns {
   align-self: stretch;
@@ -83,11 +103,11 @@
 .teamCircles {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: flex-start;
 }
 .container {
   align-self: stretch;
-  align-items: flex-start;
   gap: var(--gap-45xl);
 }
 .teamCircles {
@@ -97,13 +117,12 @@
   overflow: hidden;
   padding: var(--padding-45xl) 24px;
   box-sizing: border-box;
-  align-items: center;
   text-align: center;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1068px) {
   .columns {
     flex-direction: column;
     align-items: center;

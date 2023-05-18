@@ -20,14 +20,21 @@ const TeamCircles: FunctionComponent = () => {
             <div className={styles.imageWrapper}>
               <img className={styles.imageIcon} alt="" src="/image@2x.png" />
             </div>
-            <div className={styles.titleSection}>
+            <div className={styles.content}>
               <div className={styles.info}>
                 <b className={styles.fullName}>Full name</b>
                 <div className={styles.jobTitle}>Job title</div>
               </div>
               <div className={styles.loremIpsumDolorContainer}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
+                <p className={styles.loremIpsumDolor}>
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <p className={styles.loremIpsumDolor}>
+                  adipiscing elit. Suspendisse varius enim in
+                </p>
+                <p className={styles.loremIpsumDolor}>
+                  eros elementum tristique.
+                </p>
               </div>
             </div>
           </div>
@@ -35,14 +42,23 @@ const TeamCircles: FunctionComponent = () => {
             <div className={styles.imageWrapper}>
               <img className={styles.imageIcon1} alt="" src="/image@2x.png" />
             </div>
-            <div className={styles.titleSection}>
+            <div className={styles.content}>
               <div className={styles.info}>
                 <b className={styles.fullName}>Full name</b>
                 <div className={styles.jobTitle}>Job title</div>
               </div>
-              <div className={styles.loremIpsumDolorContainer}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
+              <div className={styles.description1}>
+                <p className={styles.loremIpsumDolor}>
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <p className={styles.loremIpsumDolor}>
+                  {" "}
+                  adipiscing elit. Suspendisse varius enim in
+                </p>
+                <p className={styles.loremIpsumDolor}>
+                  {" "}
+                  eros elementum tristique.
+                </p>
               </div>
             </div>
           </div>
@@ -50,14 +66,23 @@ const TeamCircles: FunctionComponent = () => {
             <div className={styles.imageWrapper}>
               <img className={styles.imageIcon1} alt="" src="/image@2x.png" />
             </div>
-            <div className={styles.titleSection}>
+            <div className={styles.content}>
               <div className={styles.info}>
                 <b className={styles.fullName}>Full name</b>
                 <div className={styles.jobTitle}>Job title</div>
               </div>
-              <div className={styles.loremIpsumDolorContainer}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
+              <div className={styles.description1}>
+                <p className={styles.loremIpsumDolor}>
+                  Lorem ipsum dolor sit amet, consectetur
+                </p>
+                <p className={styles.loremIpsumDolor}>
+                  {" "}
+                  adipiscing elit. Suspendisse varius enim in
+                </p>
+                <p className={styles.loremIpsumDolor}>
+                  {" "}
+                  eros elementum tristique.
+                </p>
               </div>
             </div>
           </div>
