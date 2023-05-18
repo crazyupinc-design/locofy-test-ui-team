@@ -23,11 +23,9 @@
 }
 .imageIcon {
   align-self: stretch;
-  flex: 1;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
+  width: 270px;
   object-fit: cover;
 }
 .imageWrapper {
@@ -65,22 +63,16 @@
 }
 .imageIcon1 {
   align-self: stretch;
-  flex: 1;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
+  width: 270px;
   object-fit: cover;
-}
-.columns,
-.container,
-.teamCircles {
-  display: flex;
-  align-items: flex-start;
 }
 .columns {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
   font-size: var(--font-size-xl);
@@ -89,11 +81,13 @@
 }
 .container,
 .teamCircles {
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .container {
   align-self: stretch;
+  align-items: flex-start;
   gap: var(--gap-45xl);
 }
 .teamCircles {
@@ -101,8 +95,9 @@
   background-color: var(--color-white);
   width: 100%;
   overflow: hidden;
-  padding: var(--padding-45xl) 0;
+  padding: var(--padding-45xl) 24px;
   box-sizing: border-box;
+  align-items: center;
   text-align: center;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
