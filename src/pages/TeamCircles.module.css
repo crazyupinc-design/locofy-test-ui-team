@@ -29,7 +29,7 @@
   object-fit: cover;
 }
 .imageWrapper {
-  align-self: stretch;
+  width: 368px;
   height: 270px;
   display: flex;
   flex-direction: row;
@@ -40,18 +40,12 @@
 }
 .fullName,
 .jobTitle {
+  align-self: stretch;
   position: relative;
   line-height: 150%;
 }
-.fullName {
-  align-self: stretch;
-}
 .jobTitle {
   font-size: var(--font-size-lg);
-}
-.info,
-.jobTitle {
-  align-self: stretch;
 }
 .card,
 .content,
@@ -61,10 +55,17 @@
   align-items: center;
   justify-content: flex-start;
 }
-.content {
+.info {
   align-self: stretch;
+}
+.card,
+.content {
+  width: 368px;
+}
+.content {
   flex: 1;
   padding: 0 var(--padding-lg);
+  box-sizing: border-box;
   gap: var(--gap-base);
 }
 .card {
@@ -89,9 +90,11 @@
   flex-shrink: 0;
 }
 .columns {
-  align-self: stretch;
+  width: 1440px;
   display: flex;
   flex-direction: row;
+  padding: 0 40px;
+  box-sizing: border-box;
   align-items: flex-start;
   justify-content: center;
   text-align: center;
@@ -115,7 +118,7 @@
   background-color: var(--color-white);
   width: 100%;
   overflow: hidden;
-  padding: var(--padding-45xl) 24px;
+  padding: var(--padding-45xl) 0;
   box-sizing: border-box;
   text-align: center;
   font-size: var(--font-size-13xl);
